@@ -102,7 +102,7 @@ footer p {
   padding-top:0px;
 } */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 268px) {
 
 .brand {
   display: inherit;
@@ -191,12 +191,23 @@ footer p {
 
 .desaturate { -webkit-filter: sepia(50%); filter: sepia(50%); }
 
+@media screen and (min-width: 200px) {
+#home-logo {
+	  width: 50%;
+	  height: auto;
+	  display: block;
+	  margin: auto;
+	  }
+}
+
+@media screen and (min-width: 768px) {
 #home-logo {
 	  width: 15%;
 	  height: auto;
 	  display: block;
 	  margin: auto;
 	  }
+}
 
       #container {
         min-height: 100%;

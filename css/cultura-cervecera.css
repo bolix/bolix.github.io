@@ -246,3 +246,9 @@ footer p {
 	-khtml-border-top-right-radius:3px;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
+
+#map_canvas {
+   display: block;
+   width: 100%;
+   height: 400px;
+}

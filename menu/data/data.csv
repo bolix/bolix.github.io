@@ -1,0 +1,306 @@
+﻿Type,Description,Price,TypeId,Pricef
+Cervezas Alemanas,ALPIRSBACHER HEIDELBEERE,131,CervezasAlemanas,167.68
+Cervezas Alemanas,ALPIRSBACHER KLEINER MONCH,132.81,CervezasAlemanas,170.00
+Cervezas Alemanas,ALPIRSBACHER KLEINER MONCH ZIT,131,CervezasAlemanas,167.68
+Cervezas Alemanas,ARCOBRAU FESTBIER,234.38,CervezasAlemanas,300.01
+Cervezas Alemanas,ARCOBRAU SCHLOSS DUNKEL,222.66,CervezasAlemanas,285.00
+Cervezas Alemanas,ARCOBRAU URFASS 33cl,160.16,CervezasAlemanas,205.00
+Cervezas Alemanas,ARCOBRAU WEISSBIER DUNKEL,222.66,CervezasAlemanas,285.00
+Cervezas Alemanas,ARCOBRAU WEISSBIER HELL,222.66,CervezasAlemanas,285.00
+Cervezas Alemanas,ARCOBRAU ZWICKLBIER 33cl,164.06,CervezasAlemanas,210.00
+Cervezas Alemanas,ERDINGER BLANCA OKTOBERFEST 50,178,CervezasAlemanas,227.84
+Cervezas Alemanas,ERDINGER CHAMP,117.19,CervezasAlemanas,150.00
+Cervezas Alemanas,ERDINGER DUNKEL 50 CL,179.69,CervezasAlemanas,230.00
+Cervezas Alemanas,ERDINGER KRISTALL,179.69,CervezasAlemanas,230.00
+Cervezas Alemanas,ERDINGER PIKANTUS,179.69,CervezasAlemanas,230.00
+Cervezas Alemanas,ERDINGER URWEISE,191.41,CervezasAlemanas,245.00
+Cervezas Alemanas,ERDINGER WEIBBIER,199.22,CervezasAlemanas,255.00
+Cervezas Alemanas,FRANZISKANER DUNKEL,195,CervezasAlemanas,249.60
+Cervezas Alemanas,FRANZISKANER WEISSBIER NATURTR,191,CervezasAlemanas,244.48
+Cervezas Alemanas,KROMBACHER PILS,171.88,CervezasAlemanas,220.01
+Cervezas Alemanas,SCHNEIDER AVENTINUS EISBOCK,324.22,CervezasAlemanas,415.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 1,187.5,CervezasAlemanas,240.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 2,199.22,CervezasAlemanas,255.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 3,148.44,CervezasAlemanas,190.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 4,234.38,CervezasAlemanas,300.01
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 5,218.75,CervezasAlemanas,280.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 6,218.75,CervezasAlemanas,280.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP 7,199.22,CervezasAlemanas,255.00
+Cervezas Alemanas,SCHNEIDER WEISSE TAP X SUMMERW,932,CervezasAlemanas,1192.96
+Cervezas Alemanas,WARSTEINER PREMIUM VERUM 33CL,78.12,CervezasAlemanas,99.99
+Cervezas Alemanas,WARSTEINER PREMIUM VERUM BARRI,"1,289.06",CervezasAlemanas,1650.00
+Cervezas Alemanas,KONIG LUDWING DUNKEL,190.68,CervezasAlemanas,244.07
+Cervezas Alemanas,ENGEL BOCK DUNKEL,203.13,CervezasAlemanas,260.01
+Cervezas Alemanas,ENGEL GOLD,195.31,CervezasAlemanas,250.00
+Cervezas Alemanas,ENGEL BOCK HELL,203.13,CervezasAlemanas,260.01
+Cervezas Alemanas,ENGEL DUNKEL,203.13,CervezasAlemanas,260.01
+Cervezas Alemanas,FRANZISKANER WEISSBIER,185.7,CervezasAlemanas,237.70
+Cervezas Alemanas,FRANZISKANER DUNKEL,185.7,CervezasAlemanas,237.70
+Cervezas Alemanas,PAULANER NATURTRUB,187.5,CervezasAlemanas,240.00
+Cervezas Alemanas,PAULANER DUNKEL,187.5,CervezasAlemanas,240.00
+Cervezas Alemanas,PAULANER SALVATOR,187.5,CervezasAlemanas,240.00
+Cervezas Alemanas,PAULANER OKTOBERFEST,187.5,CervezasAlemanas,240.00
+Cervezas Americanas,ABITA ABBEY ALE,404.69,CervezasAmericanas,518.00
+Cervezas Americanas,ABITA AMBER,144.53,CervezasAmericanas,185.00
+Cervezas Americanas,ABITA ANDYGATOR,203.13,CervezasAmericanas,260.01
+Cervezas Americanas,ABITA GOLDEN,144.53,CervezasAmericanas,185.00
+Cervezas Americanas,ABITA JOCKAMO IPA,156.25,CervezasAmericanas,200.00
+Cervezas Americanas,ABITA PURPLE HAZE,148.44,CervezasAmericanas,190.00
+Cervezas Americanas,ABITA RESTORATION PALE ALE,148.44,CervezasAmericanas,190.00
+Cervezas Americanas,ABITA SAVE OUR SHORE,394.53,CervezasAmericanas,505.00
+Cervezas Americanas,ABITA TURBODOG,148.44,CervezasAmericanas,190.00
+Cervezas Americanas,BROOKLYN BROWN ALE,212,CervezasAmericanas,271.36
+Cervezas Americanas,BROOKLYN LAGER,212,CervezasAmericanas,271.36
+Cervezas Americanas,DOGFISH HEAD 60 MINUTES IPA,265.63,CervezasAmericanas,340.01
+Cervezas Americanas,DOGFISH HEAD 90 MIN IMPERIAL,359.38,CervezasAmericanas,460.01
+Cervezas Americanas,DOGFISH HEAD INDIAN BROWN ALE,253.91,CervezasAmericanas,325.00
+Cervezas Americanas,DOGFISH HEAD MIDAS TOUCH,347.66,CervezasAmericanas,445.00
+Cervezas Americanas,DOGFISH HEAD MY ANTONIA,"1,102.00",CervezasAmericanas,1410.56
+Cervezas Americanas,DOGFISH HEAD NAMASTE,"1,186.00",CervezasAmericanas,1518.08
+Cervezas Americanas,DOGFISH HEAD NOBLE ROT,"1,171.88",CervezasAmericanas,1500.01
+Cervezas Americanas,DOGFISH HEAD PALO SANTO MARRON,386.72,CervezasAmericanas,495.00
+Cervezas Americanas,DOGFISH HEAD PUMKING ALE,271,CervezasAmericanas,346.88
+Cervezas Americanas,DOGFISH HEAD RHISING BINES,"1,102.00",CervezasAmericanas,1410.56
+Cervezas Americanas,DOGFISH HEAD SAHTEA,"1,102.00",CervezasAmericanas,1410.56
+Cervezas Americanas,DOGFISH HEAD SIXTY ONE MIN,288,CervezasAmericanas,368.64
+Cervezas Americanas,MONK IN THE TRUNK ORGANIC AMBE,246.09,CervezasAmericanas,315.00
+Cervezas Americanas,SAMUEL ADAMS BOSTON LAGER,210.94,CervezasAmericanas,270.00
+Cervezas Americanas,SAMUEL ADAMS NOBLE PILS,208,CervezasAmericanas,266.24
+Cervezas Americanas,SAMUEL ADAMS OCTOBERFEST,216,CervezasAmericanas,276.48
+Cervezas Americanas,SAMUEL ADAMS WINTER LAGER,203,CervezasAmericanas,259.84
+Cervezas Americanas,SAMUEL ADAMS WINTER LAGER,254,CervezasAmericanas,325.12
+Cervezas Americanas,SIERRA NEVADA CELEBRATION,207.03,CervezasAmericanas,265.00
+Cervezas Americanas,SIERRA NEVADA CELEBRATION,258,CervezasAmericanas,330.24
+Cervezas Americanas,SIERRA NEVADA KELLERWEISSE,203,CervezasAmericanas,259.84
+Cervezas Americanas,SIERRA NEVADA PALE ALE,210.94,CervezasAmericanas,270.00
+Cervezas Americanas,SIERRA NEVADA PORTER,199,CervezasAmericanas,254.72
+Cervezas Americanas,SIERRA NEVADA TORPEDO,218.75,CervezasAmericanas,280.00
+Cervezas Americanas,STONE ARROGANT BASTARD,551,CervezasAmericanas,705.28
+Cervezas Americanas,STONE PALE ALE,237,CervezasAmericanas,303.36
+Cervezas Americanas,MAGIC HAT #9 PALE ALE,132.81,CervezasAmericanas,170.00
+Cervezas Americanas,CLOWN SHOES BROWN ANGEL,453.39,CervezasAmericanas,580.34
+Cervezas Americanas,CLOWN SHOES BLAECORN UNIDRAGON,741.53,CervezasAmericanas,949.16
+Cervezas Americanas,CLOWN SHOES VAMPIRE SLAYER,648.31,CervezasAmericanas,829.84
+Cervezas Americanas,CLOWN SHOES MUFFIN TOP,648.31,CervezasAmericanas,829.84
+Cervezas Americanas,CLOWN SHOES GENGHIS PECAN,563.56,CervezasAmericanas,721.36
+Cervezas Americanas,CLOWN SHOES CHOCOLAT SOMBRERO,639.83,CervezasAmericanas,818.98
+Cervezas Americanas,BRASH BOLLOCKS,656.78,CervezasAmericanas,840.68
+Cervezas Americanas,BRASH TEXAS EXILE,648.31,CervezasAmericanas,829.84
+Cervezas Americanas,BRASH ITEM NINE,661.02,CervezasAmericanas,846.11
+Cervezas Americanas,BRASH SMOGLIFTER,648.31,CervezasAmericanas,829.84
+Cervezas Americanas,CLOWN SHOES BOMBAY BERSERKER,733.05,CervezasAmericanas,938.30
+Cervezas Americanas,CLOWN SHOES HOPPY FEET,211.86,CervezasAmericanas,271.18
+Cervezas Americanas,CLOWN SHOES CLEMENTINE,211.86,CervezasAmericanas,271.18
+Cervezas Americanas,CLOWN SHOES GALACTICA IPA,220.34,CervezasAmericanas,282.04
+Cervezas Americanas,COMBO MAGIC HAT,507.81,CervezasAmericanas,650.00
+Cervezas Americanas,BRASH DROOGS,529.66,CervezasAmericanas,677.96
+Cervezas Americanas,COMBO LICEISTA,406.25,CervezasAmericanas,520.00
+Cervezas Americanas,COMBO ESCOGIDISTA,406.25,CervezasAmericanas,520.00
+Cervezas Americanas,99=ABITA GOLDEN,0,CervezasAmericanas,0.00
+Cervezas Americanas,COMBO  SUPER BOWL,468.75,CervezasAmericanas,600.00
+Cervezas Americanas,SAMUEL ADAMS COLD SNAP,226.56,CervezasAmericanas,290.00
+Cervezas Americanas,DOGFISH HEAD SIXTY ONE MIN,328.12,CervezasAmericanas,419.99
+Cervezas Americanas,DOGFISH HEAD SAH TEA,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD PIERCING PILS,312.5,CervezasAmericanas,400.00
+Cervezas Americanas,DOGFISH HEAD TWEASON ALE,312.5,CervezasAmericanas,400.00
+Cervezas Americanas,DOGFISH HEAD BIRRA ETRUSCA,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD AMERICAN BEAUTY,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD HELLHOUND,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD READ AND WHITE,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,BROOKLYN LAGER,214.84,CervezasAmericanas,275.00
+Cervezas Americanas,YUENGLING LAGER,160.15,CervezasAmericanas,204.99
+Cervezas Americanas,YUENGLING BLACK & TAN,160.15,CervezasAmericanas,204.99
+Cervezas Americanas,DOGFISH HEAD MY ANTONIA,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD NAMASTE,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD RIZING VINES,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,DOGFISH HEAD RHIZING BINES,"1,367.19",CervezasAmericanas,1750.00
+Cervezas Americanas,HAIR OF THE DOG ADAM,429.68,CervezasAmericanas,549.99
+Cervezas Americanas,HAIR OF THE DOG BLUE DOT IPA,742.18,CervezasAmericanas,949.99
+Cervezas Americanas,COALITION SOURPUSS SOUR BELG,683.59,CervezasAmericanas,875.00
+Cervezas Americanas,99=ABITA ABBEY ALE,0,CervezasAmericanas,0.00
+Cervezas Americanas,ANCHOR STEAM BOCK BEER,312.5,CervezasAmericanas,400.00
+Cervezas Americanas,ANCHOR STEAM PORTER,312.5,CervezasAmericanas,400.00
+Cervezas Americanas,COALITION KING KITTY RED ALE,527.34,CervezasAmericanas,675.00
+Cervezas Americanas,COALITION ROOSTERS CREAM ALE,527.34,CervezasAmericanas,675.00
+Cervezas Americanas,COALITION TWO DOGS IPA,527.34,CervezasAmericanas,675.00
+Cervezas Americanas,COALITION WHEAT THE PEOPLE,195.31,CervezasAmericanas,250.00
+Cervezas Americanas,CRUX HALF HITCH IMPERIAL IPA,546.87,CervezasAmericanas,699.99
+Cervezas Americanas,DESCHUTES BARLEY WINE ALE,761.71,CervezasAmericanas,974.99
+Cervezas Americanas,DESCHUTES BIG RED IMPERIAL RED,"1,171.87",CervezasAmericanas,1499.99
+Cervezas Americanas,DESCHUTES HOP HENGE EXP IPA,664.06,CervezasAmericanas,850.00
+Cervezas Americanas,DESCHUTES IMPERIAL SMKD POR,820.31,CervezasAmericanas,1050.00
+Cervezas Americanas,DESCHUTES THE ABYSS 2013,"1,328.12",CervezasAmericanas,1699.99
+Cervezas Americanas,DOGFISH HEAD WORLD WIDE STOUT,761.71,CervezasAmericanas,974.99
+Cervezas Americanas,ELYSIAN SPLIT SHOT EXPRSO MILK,371.09,CervezasAmericanas,475.00
+Cervezas Americanas,FIRESTONE DOUBLE JACK DOUBLE,390.63,CervezasAmericanas,500.01
+Cervezas Americanas,HOPVALLEY CITRUS MISTRESS IPA,585.93,CervezasAmericanas,749.99
+Cervezas Americanas,LAGUNITAS CAPPUCCINO STOUT,566.4,CervezasAmericanas,724.99
+Cervezas Americanas,NINKASI BELIEVER DOUBLE RED,585.93,CervezasAmericanas,749.99
+Cervezas Americanas,NORTH COAST OLD RASPUTIN,371.09,CervezasAmericanas,475.00
+Cervezas Americanas,PELICAN TSUNAMI STOUT,605.46,CervezasAmericanas,774.99
+Cervezas Americanas,UINTA DUBHE IMPERIAL BLACK,351.56,CervezasAmericanas,450.00
+Cervezas Americanas,CIGAR CITY INVASION PALE ALE,228.12,CervezasAmericanas,291.99
+Cervezas Americanas,CIGAR CITY JAI ALAI IPA,250.54,CervezasAmericanas,320.69
+Cervezas Americanas,CIGAR CITY MADURO BROWN,228.12,CervezasAmericanas,291.99
+Cervezas Americanas,DOGFISH HEAD BITCHES BREW,937.5,CervezasAmericanas,1200.00
+Cervezas Americanas,MAGIC HAT HEART OF DARKNESS,214.84,CervezasAmericanas,275.00
+Cervezas Americanas,ROGUE AMERICAN AMBER ALE,171.88,CervezasAmericanas,220.01
+Cervezas Americanas,ROGUE BRUTAL IPA,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE CHOCOLATE STOUT,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE DEAD GUY ALE 12oz,171.88,CervezasAmericanas,220.01
+Cervezas Americanas,ROGUE HAZELNUT BROWN NECTAR,171.88,CervezasAmericanas,220.01
+Cervezas Americanas,ROGUE MOCHA PORTER 12oz,171.88,CervezasAmericanas,220.01
+Cervezas Americanas,ROGUE SHAKESPEARE OATMEAL S,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,OMMENGANG ABBEY ALE,703.12,CervezasAmericanas,899.99
+Cervezas Americanas,OMMENGANG HENNEPIN ALE,761.71,CervezasAmericanas,974.99
+Cervezas Americanas,OMMENGANG RARE VOS,761.71,CervezasAmericanas,974.99
+Cervezas Americanas,OMMENGAN THREE PHILOSOPHERS,820.31,CervezasAmericanas,1050.00
+Cervezas Americanas,OMMENGANG WILD AT HEART,"1,171.87",CervezasAmericanas,1499.99
+Cervezas Americanas,STONE DOUBLE ARROGANT ALE,664.06,CervezasAmericanas,850.00
+Cervezas Americanas,DOGFISH HEAD 75 MINUTES,937.5,CervezasAmericanas,1200.00
+Cervezas Americanas,STONE CALI BELGIQUE IPA,625,CervezasAmericanas,800.00
+Cervezas Americanas,STONE OLD GUARDIAN BARLEY WINE,664.06,CervezasAmericanas,850.00
+Cervezas Americanas,STONE SMOKED PORTER VANILLA,664.06,CervezasAmericanas,850.00
+Cervezas Americanas,NINKASI VAIRETY PACK,253.9,CervezasAmericanas,324.99
+Cervezas Americanas,NEW BELGIUM FAT TIRE,246.09,CervezasAmericanas,315.00
+Cervezas Americanas,DOGFISH KVASIR,"1,250.00",CervezasAmericanas,1600.00
+Cervezas Americanas,STONE ARROGANT BASTARD,570.31,CervezasAmericanas,730.00
+Cervezas Americanas,STONE IPA,296.87,CervezasAmericanas,379.99
+Cervezas Americanas,LAGUNITAS CZECH PILS,250,CervezasAmericanas,320.00
+Cervezas Americanas,VICTORY PRIMA PILS,250,CervezasAmericanas,320.00
+Cervezas Americanas,FOUNDERS PALE ALE,281.25,CervezasAmericanas,360.00
+Cervezas Americanas,FOUNDERS PORTER,285.15,CervezasAmericanas,364.99
+Cervezas Americanas,ANCHOR STEAM,250,CervezasAmericanas,320.00
+Cervezas Americanas,SIERRA NEVADA RUTHLESS RYE,234.37,CervezasAmericanas,299.99
+Cervezas Americanas,SAMUEL ADAMS SUMMER ALE,214.84,CervezasAmericanas,275.00
+Cervezas Americanas,PLINY THE ELDER,"1,015.63",CervezasAmericanas,1300.01
+Cervezas Americanas,ROGUE FARMS PUMPKIN PATCH,613.28,CervezasAmericanas,785.00
+Cervezas Americanas,ROGUE JUNIPER ALE 12oz,171.88,CervezasAmericanas,220.01
+Cervezas Americanas,ROGUE FARMS 7 HOPS IPA,460.94,CervezasAmericanas,590.00
+Cervezas Americanas,ROGUE FARMS HONEY KOLSCH,613.28,CervezasAmericanas,785.00
+Cervezas Americanas,ROGUE MORIMOTO IMPERIAL PIL,960.94,CervezasAmericanas,1230.00
+Cervezas Americanas,ROGUE SHAKESPEARE STOUT 12o,203.13,CervezasAmericanas,260.01
+Cervezas Americanas,ROGUE VOO DOO 3,722.66,CervezasAmericanas,925.00
+Cervezas Americanas,ROGUE XS DOUBLE DEAD GUY AL,937.5,CervezasAmericanas,1200.00
+Cervezas Americanas,ROGUE XS IMPERIAL I2PA,937.5,CervezasAmericanas,1200.00
+Cervezas Americanas,ROGUE XS OLD CRUSTACEAN,968.75,CervezasAmericanas,1240.00
+Cervezas Americanas,ROGUE YELLOW SNOW 12oz,203.13,CervezasAmericanas,260.01
+Cervezas Americanas,ROGUE SANTAS PRIVATE RES 12oz,203.13,CervezasAmericanas,260.01
+Cervezas Americanas,ROGUE AMERICAN AMBER 22oz,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE JUNIPER ALE 22oz,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE SANTA'S PRIVATE RES 22oz,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE CHIPOTLE 22oz,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE YELLOW SNOW 22oz,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE DEAD GUY ALE 22oz,429.69,CervezasAmericanas,550.00
+Cervezas Americanas,ROGUE DOUBLE CHOCOLATE STOU,742.19,CervezasAmericanas,950.00
+Cervezas Americanas,ROGUE INTEGRITY ALE,722.66,CervezasAmericanas,925.00
+Cervezas Americanas,ROGUE VOO DOO 2,722.66,CervezasAmericanas,925.00
+Cervezas Americanas,ROGUE SANTA'S PRIVATE RES 12oz,203.13,CervezasAmericanas,260.01
+Cervezas Americanas,COORS LIGHT 12oz,85.94,CervezasAmericanas,110.00
+Cervezas Americanas,CLOWN SHOES TRAMP STAMP 33cl,230.47,CervezasAmericanas,295.00
+Cervezas Americanas,CLOWN SHOES SWAGGER 33cl,210.94,CervezasAmericanas,270.00
+Cervezas Americanas,ROGUE XS RUSSIAN IMPERIAL STOU,963.74,CervezasAmericanas,1233.59
+Cervezas Austriacas,EGGENBERG SILVER BEER,214.84,CervezasAustriacas,275.00
+Cervezas Austriacas,MAC QUEEN'S NESSIE,230.47,CervezasAustriacas,295.00
+Cervezas Belgas,AUGUSTIJN GRAND CRU,267,CervezasBelgas,341.76
+Cervezas Belgas,BORNEM DOUBLE,275,CervezasBelgas,352.00
+Cervezas Belgas,BORNEM TRIPLE,275,CervezasBelgas,352.00
+Cervezas Belgas,BRUNEHAUT BIO AMBER SIN GLUTEN,226.56,CervezasBelgas,290.00
+Cervezas Belgas,BRUNEHAUT BIO BLANCHE,179.69,CervezasBelgas,230.00
+Cervezas Belgas,CHIMAY,222.66,CervezasBelgas,285.00
+Cervezas Belgas,DELIRIUM NOEL,320.31,CervezasBelgas,410.00
+Cervezas Belgas,DELIRIUM TREMENS,281.25,CervezasBelgas,360.00
+Cervezas Belgas,DUVEL,210.94,CervezasBelgas,270.00
+Cervezas Belgas,KASTEEL ROJA,300.78,CervezasBelgas,385.00
+Cervezas Belgas,KASTEEL TRIPEL,328.13,CervezasBelgas,420.01
+Cervezas Belgas,LA CHOUFFE,250,CervezasBelgas,320.00
+Cervezas Belgas,LIEFMANS CUVEE,308.59,CervezasBelgas,395.00
+Cervezas Belgas,LIEFMANS FRUITESSE,171.88,CervezasBelgas,220.01
+Cervezas Belgas,LIEFMANS GOUNDENBAND,277.34,CervezasBelgas,355.00
+Cervezas Belgas,LINDEMANS GUEUZE,210.94,CervezasBelgas,270.00
+Cervezas Belgas,LINDEMANS GUEUZE LAMBIC,394,CervezasBelgas,504.32
+Cervezas Belgas,LINDEMANS KRIEK CUVEE,472.66,CervezasBelgas,605.00
+Cervezas Belgas,LINDEMANS KRIEK CUVEE,446,CervezasBelgas,570.88
+Cervezas Belgas,MAREDSOUS BLONDE,218.75,CervezasBelgas,280.00
+Cervezas Belgas,MAREDSOUS BRUNE,226.56,CervezasBelgas,290.00
+Cervezas Belgas,MAREDSOUS TRIPLE,242.19,CervezasBelgas,310.00
+Cervezas Belgas,MC CHOUFFE,250,CervezasBelgas,320.00
+Cervezas Belgas,MONGOZO BANANA,280,CervezasBelgas,358.40
+Cervezas Belgas,ST. MARTIN BRUNE,242,CervezasBelgas,309.76
+Cervezas Belgas,ST. MARTIN NOEL,242,CervezasBelgas,309.76
+Cervezas Belgas,BOUCANIER DARK ALE 9%,316.41,CervezasBelgas,405.00
+Cervezas Belgas,BOUCANIER GOLDEN ALE 11%,324.22,CervezasBelgas,415.00
+Cervezas Belgas,BOUCANIER RED ALE 7%,296.88,CervezasBelgas,380.01
+Cervezas Belgas,DELIRIUM NOCTURNO,320.31,CervezasBelgas,410.00
+Cervezas Belgas,TRIPLE d' ANVERS,208.01,CervezasBelgas,266.25
+Cervezas Belgas,DEUS,"1,250.00",CervezasBelgas,1600.00
+Cervezas Belgas,LINDEMANS GUEUZE LAMBIC,402.34,CervezasBelgas,515.00
+Cervezas Belgas,AUGUSTIJN BLONDE,229.69,CervezasBelgas,294.00
+Cervezas Belgas,HOUBLON CHOUFFE,277.34,CervezasBelgas,355.00
+Cervezas Belgas,DUVEL 75CL,468.75,CervezasBelgas,600.00
+Cervezas Canadienses,FIN DU MONDE,304.69,CervezasCanadienses,390.00
+Cervezas Checas,PARDUBICKY PORTER ORIGINAL,132.81,CervezasChecas,170.00
+Cervezas Checas,PRIMATOR WEIZENBIER,191.41,CervezasChecas,245.00
+Cervezas Checas,STAROPRAMEN GRANET 33cl,113.28,CervezasChecas,145.00
+Cervezas Checas,STAROPRAMEN PREMIUM BEER,113.28,CervezasChecas,145.00
+Cervezas Checas,CZECHVAR PREMIUN CZECH LAGER,125,CervezasChecas,160.00
+Cervezas Checas,CZECHVAR PREMIUN DARK LAGER,132.81,CervezasChecas,170.00
+Cervezas Checas,PRIMATOR DOUBLE 24%,218.75,CervezasChecas,280.00
+Cervezas Checas,PRIMATOR PREMIUN DARK,191.41,CervezasChecas,245.00
+Cervezas Checas,PRIMATOR RITIRSKY 21%,214.84,CervezasChecas,275.00
+Cervezas Checas,PRIMATOR STOUT,191.41,CervezasChecas,245.00
+Cervezas Checas,PRIMATOR PREMIUN,140.63,CervezasChecas,180.01
+Cervezas Checas,PRIMATOR 13%,191.41,CervezasChecas,245.00
+Cervezas Checas,PRIMATOR 16%,203.13,CervezasChecas,260.01
+Cervezas Paises Bajos,LA TRAPPE PUUR,210.94,CervezasPaisesBajos,270.00
+Cervezas Paises Bajos,LA TRAPPE WITTE TRAPPIST,242.19,CervezasPaisesBajos,310.00
+Cervezas Paises Bajos,TILBURG'S DUTCH BROWN ALE,261.72,CervezasPaisesBajos,335.00
+Cervezas Paises Bajos,HEINEKEN 33cl,101.69,CervezasPaisesBajos,130.16
+Cervezas Escosesas,HARVIESTOUN THE RIDGE 33cl,203.13,CervezasEscosesas,260.01
+Cervezas Escosesas,HARVIESTOUN BROKEN DIAL 33cl,203.13,CervezasEscosesas,260.01
+Cervezas Escosesas,HARVIESTOUN OLA DUBH 18 33cl,468.75,CervezasEscosesas,600.00
+Cervezas Escosesas,HARVIESTOUN OLA DUBH 16 33cl,449.22,CervezasEscosesas,575.00
+Cervezas Escosesas,HARVIESTOUN OLA DUBH 12 33cl,386.72,CervezasEscosesas,495.00
+Cervezas Escosesas,HARVIESTOUN BITTER & TWISTED,187.5,CervezasEscosesas,240.00
+Cervezas Escosesas,HARVIESTOUN SCHIEALLION 33cl,187.5,CervezasEscosesas,240.00
+Cervezas Escosesas,HARVIESTOUN OLD ENGINE OIL 33c,390.63,CervezasEscosesas,500.01
+Cervezas Eslovacas,KALTENECKER ATLANTIS,195.31,CervezasEslovacas,250.00
+Cervezas Eslovacas,KALTENECKER WEIZEN,175.78,CervezasEslovacas,225.00
+Cervezas Eslovacas,KALTENECKER BROKAT,199.1,CervezasEslovacas,254.85
+Cervezas Eslovacas,KALTENECKER MARZEN,199.1,CervezasEslovacas,254.85
+Cervezas Españolas,ESTRELLA DAMM,105.47,CervezasEspañolas,135.00
+Cervezas Españolas,MAHOU CINCO ESTRELLAS,105.47,CervezasEspañolas,135.00
+Cervezas Españolas,MAHOU CLASICA,101.56,CervezasEspañolas,130.00
+Cervezas Españolas,MAHOU LIGHT PREMIUM,102,CervezasEspañolas,130.56
+Cervezas Españolas,MAHOU NEGRA,125,CervezasEspañolas,160.00
+Cervezas Españolas,VOLL-DAMM DOBLE MALTA,109.38,CervezasEspañolas,140.01
+Cervezas Haitianas,PRESTIGE LAGER BEER,110,CervezasHaitianas,140.80
+Cervezas Haitianas,PRESTIGE,117.19,CervezasHaitianas,150.00
+Cervezas Inglesas,FULLER' S LONDON PRIDE 50 CL,199.22,CervezasInglesas,255.00
+Cervezas Inglesas,FULLER'S 1845,230.47,CervezasInglesas,295.00
+Cervezas Inglesas,FULLER'S BLACK CAB STOUT,218.75,CervezasInglesas,280.00
+Cervezas Inglesas,FULLER'S ESB 50 CL,207.03,CervezasInglesas,265.00
+Cervezas Inglesas,FULLER'S GOLDEN PRIDE 33 CL,167.97,CervezasInglesas,215.00
+Cervezas Inglesas,FULLER'S INDIA PALE ALE 50cl,273.44,CervezasInglesas,350.00
+Cervezas Inglesas,FULLER'S LONDON PORTER 33 CL,148.44,CervezasInglesas,190.00
+Cervezas Inglesas,FULLER'S LONDON PORTER 50 CL,207.03,CervezasInglesas,265.00
+Cervezas Inglesas,FULLER'S OLD BURTON EXTRA 50cl,324.22,CervezasInglesas,415.00
+Cervezas Inglesas,FULLER'S ORGANIC HONEY DEW 33,148.44,CervezasInglesas,190.00
+Cervezas Inglesas,FULLER'S PAST MASTERS 1966 STR,324.22,CervezasInglesas,415.00
+Cervezas Inglesas,FULLER'S VINTAGE ALE 2013,285.16,CervezasInglesas,365.00
+Cervezas Inglesas,FULLER'S WILD RIVER 50CL,210.94,CervezasInglesas,270.00
+Cervezas Inglesas,MARSTON'S OLD EMPIRE 50cl,212,CervezasInglesas,271.36
+Cervezas Inglesas,MARSTON'S OYSTER STOUT 50cl,195.31,CervezasInglesas,250.00
+Cervezas Inglesas,THEAKSON OLD PECULIER,218.75,CervezasInglesas,280.00
+Cervezas Inglesas,FULLERS LONDON PORTER 50 CL,203.13,CervezasInglesas,260.01
+Cervezas Inglesas,FULLER'S LONDON PRIDE,167.97,CervezasInglesas,215.00
+Cervezas Inglesas,MARSTON'S PEDIGREE,195.31,CervezasInglesas,250.00
+Cervezas Inglesas,MARSTON'S BURTON BITTER,187.5,CervezasInglesas,240.00
+Cervezas Inglesas,MARSTON'S STRONG PALE ALE,210.94,CervezasInglesas,270.00
+Cervezas Inglesas,NEWCASTLE BROWN ALE,187.5,CervezasInglesas,240.00
+Cervezas Inglesas,FULLER'S HONEY DEW 500ml,195.31,CervezasInglesas,250.00
+Cervezas Inglesas,FULLER'S GOLDEN PRIDE 50cl,214.84,CervezasInglesas,275.00
+Cervezas Irlandesas,GUINNESS DRAUGHT,191,CervezasIrlandesas,244.48
+Cervezas Irlandesas,GUINNESS EXTRA STAOUT,210.93,CervezasIrlandesas,269.99
+Cervezas Japonesas,HITACHINO NEST WHITE ALE,585.94,CervezasJaponesas,750.00
+Cervezas Mexicanas,TECATE LIGHT 35.5cl,88.98,CervezasMexicanas,113.89

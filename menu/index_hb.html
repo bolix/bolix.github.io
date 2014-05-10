@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html"; charset=UTF-8" />
+  <title>Navigation List - CodePen</title>
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="msapplication-tap-highlight" content="no">
+  <!--<link rel='stylesheet' href='css/chui-ios-3.5.4.min.css'>-->
+  <script type="text/javascript">
+    if((navigator.userAgent.match(/Android/))) {
+        document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"css/chui-Android-3.5.4.min.css\" charset=\"utf-8\" \/>");
+    }
+    else if((navigator.userAgent.match(/iPhone/i))||(navigator.userAgent.match(/iPod/i))||navigator.userAgent.match(/iPad/i)) {
+        document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"css/chui-ios-3.5.4.min.css\" charset=\"utf-8\" \/>");
+    }
+    else {
+        document.write("<link type=\"text\/css\" rel=\"stylesheet\" href=\"css/chui-ios-3.5.4.min.css\" \/>");
+    }
+</script>
+  <style>
+		.icon {
+			height: 40px;
+			width: 40px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: auto 70%;
+		}
+		.icon.weather {
+			background-color: #29abe2;
+			background-image: url(/images/app-icons/weather.png);
+			background-size: 70% auto;
+		}
+		.icon.mail {
+			background-color: #52c5d0;
+			background-image: url(/images/app-icons/mail.png);
+			background-size: 70% auto;
+		}
+		.icon.music {
+			background-color: #f38133;
+			background-image: url(/images/app-icons/music.png);
+		}
+		.icon.browser {
+			background-color: #ed453a;
+			background-image: url(/images/app-icons/browser.png);
+		}
+		.icon.app {
+			background-color: #6ec05c;
+			background-image: url(/images/app-icons/app.png);
+		}
+		/* Border Radius for each OS: */
+		.isiOS .icon {
+			border-radius: 10px;
+		}
+		.isAndroid .icon {
+			border-radius: 50%;
+		}
+		.isWin .icon {
+			border-radius: 0;
+		}
+		
+		.isiOS .popover-buttons,
+		.isDesktopSafari.popover-buttons {
+			margin-bottom: 20px;
+			padding: 0 40px;			
+		}
+		.isiOS .popover-buttons > .button,
+		.isDesktopSafari.popover-buttons > .button {
+			display: -webkit-box;
+			display: -webkit-flex;
+			border: solid 1px #007aff;
+			padding: 4px 15px;
+			border-left: none;
+			background-color: rgba(255,255,255,.65);
+			width: auto;
+			overflow-x: hidden;
+			-webkit-transition: none;
+			transition: none;
+			font-size: 10pt;
+			-webkit-box-align: center;
+			-webkit-box-pack: center;
+			-webkit-box-flex: 1;
+			-wekbit-flex: 1;
+			text-align: center;			
+		}
+		.isiOS .popover-buttons,
+		.isDesktopSafari .popover-buttons {
+			
+		}
+		.isiOS .popover-buttons,
+		.isDesktopSafari .popover-buttons
+		.popover-buttons > .button:first-of-type {
+			border-left: solid 1px #007aff;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+		}
+		.isiOS .popover-buttons > .button:first-of-type, 
+		.isDesktopSafari .popover-buttons > .button:first-of-type {
+			border-left: solid 1px #007aff;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+		}
+		.isiOS .popover-buttons > .button:last-of-type,
+		.isDesktopSafari .popover-buttons > .button:last-of-type  {
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+		}
+		.isDesktopSafari .popover-buttons > .button:hover  {
+			color: #fff;
+   		background-color: #007aff;
+		}
+	</style>
+</head>
+<body>
+<nav>
+  <h1>Menu</h1>
+</nav>
+<article id="paises" class="current">
+  <section>
+	<h2>Paises</h2>
+    <ul class="list">
+		
+    </ul>
+	<script id="country-list-template" type="x-handlebars-template">
+			{{#each this}}
+				<li class="nav" data-goto="{{TypeId}}"><h3>{{Type}}</h3></li>
+			{{/each}}
+	</script>
+  </section>
+</article>
+<script id="product-list-template" type="x-handlebars-template">
+			{{#each this}}
+			<nav class="next"><a href="#" class="button back">Paises</a><h1>{{Type}}</h1></nav>
+			<article id="{{TypeId}}" class="navigable next">
+				<section>
+					<ul class="list">
+						<li><h3>{{Description}}</h3><p>${{Pricef}}</p></li>
+					</ul>
+				</section>
+			</article>
+			{{/each}}
+</script>
+<script id="product-template" type="x-handlebars-template">
+			{{#each this}}
+			<li><h3>{{Description}}</h3><p>${{Pricef}}</p></li>
+			{{/each}}
+</script>
+  <script src='js/jquery-2.1.1.min.js'></script>
+  <script src='js/chui-3.5.4.min.js'></script>
+  <script src='js/products.js'></script>
+  <script src='js/handlebars-v1.3.0.js'></script>
+  <script src="js/json2.js"> </script>
+  <script src="js/csv.js"> </script>
+  <script src='js/main.js'></script>
+</body>
+</html>

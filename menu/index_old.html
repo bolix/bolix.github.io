@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation List - CodePen</title>
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="msapplication-tap-highlight" content="no">
+  <link rel='stylesheet prefetch' href='css/chui.ios-3.0.4.min.css'>
+</head>
+<body>
+  <nav>
+  <h1>Paises</h1>
+</nav>
+<article id="paises" class="current">
+  <section>
+    <ul class="list">
+    </ul>
+  </section>
+</article>
+  <script src='js/jquery-2.1.1.min.js'></script>
+  <script src='js/chui-3.0.4.min.js'></script>
+  <script src='js/products.js'></script>
+  <script type="text/javascript">
+		window.Categories = function (Type) {
+		$(".products").empty();
+		$(json.Products).each(function(index, item) {
+			if(Type == item.Type) {
+				$('<div/>', {'id':'#'+item.Type.replace(' ',''),'class':'description'}).text(item.Description).append(
+					$('<div/>', {'class':'price', text:'Precio: '+item.Price}),
+					$('<div/>').append(
+						$('<button />', {'class':'productbutton'})
+						.text('Add To Cart.')
+						.click(function(){
+							$.fn.SaveToCart(i,item.Name, item.Album, item.Price);
+						})
+					)
+				).appendTo(".categories");
+			}
+		});
+	};
+	
+	$( document ).ready(function(){
+		var type = null;
+		$(json.Products).each(function(index, item) {
+			if (type != item.Type) {
+				$('<li/>', {'class':'nav', 'data-goto':item.Type.split(' ').join('')}).append($('<h3/>').text(item.Type.replace('Cervezas ',''))).appendTo($('#paises').find('.list'));
+				type = item.Type;
+			} else {
+				type = item.Type;
+			}			
+		});
+		var type = null;
+		$(json.Products).each(function(index, item) {
+			if (type != item.Type) {
+				$('<nav/>', {'class':'next'}).append(
+				$('<a/>', {'href':'#','class':'button back'}).text('Paises')).append(
+				$('<h1/>').text(item.Type)
+				).appendTo('body');
+				$('<article/>', {'id':item.Type.split(' ').join(''),'class':'next'}).append(
+				$('<section>')/*.append(
+				$('<h2/>').text('Cervezas'))*/.append(
+				$('<ul/>', {'class':'list'}).append($('<li/>').append($('<h3/>').text(item.Description))))
+				).appendTo('body');
+				type = item.Type;
+			} else {
+				$('#'+item.Type.split(' ').join('')).find('.list').append($('<li/>').append($('<h3/>').text(item.Description)));
+				type = item.Type;
+			}
+			//}
+		});
+		
+		//$( ".categories" ).tabs({ active: 1 });
+	});
+    </script>
+</body>
+</html>

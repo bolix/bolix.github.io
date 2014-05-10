@@ -1,8 +1,5 @@
 $(function  () {
 
-	FastClick.attach(document.body);
-
-
 	var data, csvObjects, jsonText;
 
 	json.Products = [];

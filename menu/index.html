@@ -11,7 +11,7 @@
   <!--<link rel='stylesheet' href='css/chui-ios-3.5.4.min.css'>-->
   <script type="text/javascript">
     if((navigator.userAgent.match(/Android/))) {
-        document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"css/chui-Android-3.5.4.min.css\" charset=\"utf-8\" \/>");
+        document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"css/chui-android-3.5.4.min.css\" charset=\"utf-8\" \/>");
     }
     else if((navigator.userAgent.match(/iPhone/i))||(navigator.userAgent.match(/iPod/i))||navigator.userAgent.match(/iPad/i)) {
         document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"css/chui-ios-3.5.4.min.css\" charset=\"utf-8\" \/>");
@@ -125,15 +125,15 @@
     </ul>
 	<script id="country-list-template" type="x-handlebars-template">
 			{{#each this}}
-				<li class="nav" data-goto="{{TypeId}}"><h3>{{Type}}</h3></li>
+				<li class="nav" data-goto="{{PaisId}}"><h3>{{Pais}}</h3></li>
 			{{/each}}
 	</script>
   </section>
 </article>
 <script id="product-list-template" type="x-handlebars-template">
 			{{#each this}}
-			<nav class="next"><a href="#" class="button back">Paises</a><h1>{{Type}}</h1></nav>
-			<article id="{{TypeId}}" class="navigable next">
+			<nav class="next"><a href="#" class="button back">Paises</a><h1>{{Pais}}</h1></nav>
+			<article id="{{PaisId}}" class="navigable next">
 				<section>
 					<ul class="list">
 						<li><h3>{{Description}}</h3><p>${{Pricef}}</p></li>

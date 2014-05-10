@@ -14,14 +14,14 @@ $(function  () {
 			
   //var shoesData = [{name:"Nike", price:199.00 }, {name:"Loafers", price:59.00 }, {name:"Wing Tip", price:259.00 }];
    //Get the HTML from the template   in the script tag
-    var CountryListScript = $("#country-list-template").html(); 
+    var CountryListScript = $("#country-list-template").html();
 
    //Compile the template
     var CountryList = Handlebars.compile (CountryListScript);
 	var paises = [];
-	var type = null;
+	var pais = null;
 	
-	var ProductListScript = $("#product-list-template").html(); 
+	var ProductListScript = $("#product-list-template").html();
 	var ProductScript = $("#product-template").html();
 
    //Compile the template
@@ -29,32 +29,31 @@ $(function  () {
 	var Product = Handlebars.compile (ProductScript);
 	var productlist = [];
 	var product = [];
-	var type = null;
-	var typeh = null;
+	var paish = null;
 	$(json.Products).each(function(index, item) {
-			if (typeh != item.Type) {
-				paises.push({'TypeId':item.TypeId, 'Type':item.Type});
-				typeh = item.Type;
+			if (pais != item.Pais) {
+				paises.push({'PaisId':item.PaisId, 'Pais':item.Pais});
+				paish = item.Pais;
 			} else {
-				typeh = item.Type;
+				paish = item.Pais;
 			}
-			if (type != item.Type) {
-				productlist.push({'TypeId':item.TypeId, 'Type':item.Type,'Description':item.Description,'Pricef':item.Pricef});
+			if (pais != item.Pais) {
+				productlist.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef});
 				$("body").append (ProductList(productlist));
-				type = item.Type;
+				pais = item.Pais;
 				productlist = [];
 			} else {
-				product.push({'TypeId':item.TypeId, 'Type':item.Type,'Description':item.Description,'Pricef':item.Pricef});
-				$("#"+item.TypeId).find(".list").append (Product(product));
-				type = item.Type;
+				product.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef});
+				$("#"+item.PaisId).find(".list").append (Product(product));
+				pais = item.Pais;
 				product = [];
 			}
 	});
     $("#paises ul").append (CountryList(paises));
 		} catch(e) {
 			alert('Error cargando data: ' + e.message);
-		}
-	  });
+		}}
+	);
 	
     $.UISearch({articleID:'#paises',placeholder:'Search',results: 5});
 

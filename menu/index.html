@@ -21,6 +21,9 @@
     }
 </script>
   <style>
+    article>section {
+      padding-top: 0px;
+    }
 		.icon {
 			height: 40px;
 			width: 40px;
@@ -60,7 +63,7 @@
 		.isWin .icon {
 			border-radius: 0;
 		}
-		
+
 		.isiOS .popover-buttons,
 		.isDesktopSafari.popover-buttons {
 			margin-bottom: 20px;
@@ -87,7 +90,7 @@
 		}
 		.isiOS .popover-buttons,
 		.isDesktopSafari .popover-buttons {
-			
+
 		}
 		.isiOS .popover-buttons,
 		.isDesktopSafari .popover-buttons
@@ -121,7 +124,7 @@
   <section>
 	<h2>Paises</h2>
     <ul class="list">
-		
+
     </ul>
 	<script id="country-list-template" type="x-handlebars-template">
 			{{#each this}}
@@ -136,7 +139,7 @@
 			<article id="{{PaisId}}" class="navigable next">
 				<section>
 					<ul class="list">
-						<li><h3>{{Description}}</h3><p>${{Pricef}}</p></li>
+						<li class="comp"><div><h3>{{Description}}</h3><h4>{{Brewery}}</h4><p>{{ABV}}</p></div><aside><p>${{Pricef}}</p></aside></li>
 					</ul>
 				</section>
 			</article>
@@ -144,7 +147,7 @@
 </script>
 <script id="product-template" type="x-handlebars-template">
 			{{#each this}}
-			<li><h3>{{Description}}</h3><p>${{Pricef}}</p></li>
+			<li class="comp"><div><h3>{{Description}}</h3><h4>{{Brewery}}</h4><p>{{ABV}}</p></div><aside><p>${{Pricef}}</p></aside></li>
 			{{/each}}
 </script>
   <script src='js/jquery-2.1.1.min.js'></script>

@@ -38,12 +38,12 @@ $(function  () {
 				paish = item.Pais;
 			}
 			if (pais != item.Pais) {
-				productlist.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef});
+				productlist.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef,'ABV':item.ABV, 'Brewery':item.Description.substr(0,item.Description.indexOf(' '))});
 				$("body").append (ProductList(productlist));
 				pais = item.Pais;
 				productlist = [];
 			} else {
-				product.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef});
+				product.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef,'ABV':item.ABV, 'Brewery':item.Description.substr(0,item.Description.indexOf(' '))});
 				$("#"+item.PaisId).find(".list").append (Product(product));
 				pais = item.Pais;
 				product = [];
@@ -55,19 +55,7 @@ $(function  () {
 		}}
 	);
 
-    $.UISearch({articleID:'#paises',placeholder:'Search',results: 5}).on("keyup click input", function () {
-        if (this.value.length > 0) {
-					$("#country-list-template").hide();
-          $("#product-list-template li").filter(function () {
-            return $(this).text().toLowerCase().indexOf($("#search").val().toLowerCase()) != -1;
-          }).show();
-        }
-        else {
-					$("#country-list-template").show();
-          //$("#products li").hide();
-        }
-        });
-
+    //$.UISearch({articleID:'#paises',placeholder:'Search',results: 5});
 
 //We pass the shoesData object to the compiled handleBars function
 // The function will insert all the values from the objects in their respective places in the HTML and returned HTML as a string. Then we use jQuery to append the resulting HTML string into the page

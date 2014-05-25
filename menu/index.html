@@ -139,17 +139,19 @@
 			<article id="{{PaisId}}" class="navigable next">
 				<section>
 					<ul class="list">
-						<li class="comp"><div><h3>{{Description}}</h3><h4>{{Brewery}}</h4><p>{{ABV}}</p></div><aside><p>${{Pricef}}</p></aside></li>
+						<li class="comp"><div><h3>{{Description}}</h3></div><aside><p>${{Pricef}}</p></aside></li>
 					</ul>
 				</section>
 			</article>
 			{{/each}}
 </script>
+    <!-- <li class="comp"><div><h3>{{Description}}</h3><h4>{{Brewery}}</h4><p>{{ABV}}</p></div><aside><p>${{Pricef}}</p></aside></li>-->
 <script id="product-template" type="x-handlebars-template">
 			{{#each this}}
-			<li class="comp"><div><h3>{{Description}}</h3><h4>{{Brewery}}</h4><p>{{ABV}}</p></div><aside><p>${{Pricef}}</p></aside></li>
+			<li class="comp"><div><h3>{{Description}}</h3></div><aside><p>${{Pricef}}</p></aside></li>
 			{{/each}}
 </script>
+    <!--<li class="comp"><div><h3>{{Description}}</h3><h4>{{Brewery}}</h4><p>{{ABV}}</p></div><aside><p>${{Pricef}}</p></aside></li>-->
   <script src='js/jquery-2.1.1.min.js'></script>
   <script src='js/chui-3.5.4.min.js'></script>
   <script src='js/products.js'></script>

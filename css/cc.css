@@ -5,6 +5,15 @@
   padding: 40px 15px;
   text-align: center;
 }
+
+.fixed_width {
+      height: 143px;
+      width: 149px;
+      max-height: 143px;
+      max-width: 149px;
+     }
+
+
 /*img {
  -webkit-filter: invert(100%);
 }*/

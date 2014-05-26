@@ -11,10 +11,12 @@ $(function  () {
 
 	var ProductListScript = $("#product-list-template").html();
 	var ProductScript = $("#product-template").html();
+    var AllProductScript = $("#all-product-list-template").html();
 
 	//Compile the template
 		var ProductList = Handlebars.compile (ProductListScript);
 	var Product = Handlebars.compile (ProductScript);
+    var AllProduct = Handlebars.compile (AllProductScript);
 
 	$.get("data/data.csv", function(respons) {
      data = respons;
@@ -30,6 +32,7 @@ $(function  () {
 
 	var productlist = [];
 	var product = [];
+    var allproduct = [];
 	var paish = null;
 	$(json.Products).each(function(index, item) {
 			if (pais != item.Pais) {
@@ -49,6 +52,9 @@ $(function  () {
 				pais = item.Pais;
 				product = [];
 			}
+            allproduct.push({'PaisId':item.PaisId, 'Pais':item.Pais,'Description':item.Description,'Pricef':item.Pricef,'ABV':item.ABV, 'Brewery':item.Description.substr(0,item.Description.indexOf(' '))});
+				$("#busq").find(".list").append (AllProduct(allproduct));
+				allproduct = [];
 	});
     $("#paises ul").append (CountryList(paises));
 		} catch(e) {
@@ -56,4 +62,33 @@ $(function  () {
 		}}
 	);
 
+    $.UISearch({articleId:'#busq', id:"searchfield",placeholder:'Buscar',results: 5});
+    
+    //$.UISlideout();
+    
+    //$.UISlideout.populate([{busq:'Buscador'},{paises:'Paises'}]);
+    var opts = {
+     tabs : 2,
+	  imagePath : "../icons/",
+	  icons : ["busq", "paises"],
+	  labels : ["Todas", "Pais"],
+	  selected : 1
+   };
+   $.UITabbar(opts);
+    
+    $('#searchfield').keyup(function () {
+    var filter = this.value,
+        $list = $('#busq').find('.list');
+
+    if (filter) {
+        // this finds all links in a list that contain the input,
+        // and hide the ones not containing the input while showing the ones that do
+        $list.find("h3:not(:Contains(" + filter.toUpperCase() + "))").parent().parent().hide();
+        $list.find("h3:Contains(" + filter.toUpperCase() + ")").parent().parent().show();
+    } else {
+        $list.find("li").show();
+    }
+    return false;
+});
+    
 });

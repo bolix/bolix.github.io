@@ -114,14 +114,43 @@
 			color: #fff;
    		background-color: #007aff;
 		}
+      .tabbar > .button.busq > .icon  {
+           background-image: url('icons/busq.png');
+        }
+        .tabbar > .button.paises > .icon  {
+           background-image: url('icons/paises.png');
+        }
 	</style>
 </head>
 <body>
 <nav>
   <h1>Menu</h1>
 </nav>
-<article id="paises" class="current">
+<!--<article id="principal" class="current">
   <section>
+    <ul class="list">
+        <li class="nav" data-goto="busq"><h3>Buscador</h3></li>
+        <li class="nav" data-goto="paises"><h3>Paises</h3></li>
+    </ul>
+  </section>
+</article>-->
+<nav><!--<a href="#" class="button back">Atras</a>--><h1>Menu</h1></nav>    
+<article id="busq" class="current">
+   <section>
+	<h2>Buscador</h2>
+    <ul class="list">
+
+    </ul>
+	<script id="all-product-list-template" type="x-handlebars-template">
+			{{#each this}}
+				<li class="comp"><div><h3>{{Description}}</h3></div><aside><p>${{Pricef}}</p></aside></li>
+			{{/each}}
+	</script>
+  </section>
+</article>
+<nav class="next"><!--<a href="#" class="button back">Atras</a>--><h1>Menu</h1></nav>
+<article id="paises" class="navigable next">
+   <section>
 	<h2>Paises</h2>
     <ul class="list">
 
@@ -133,6 +162,7 @@
 	</script>
   </section>
 </article>
+
 <script id="product-list-template" type="x-handlebars-template">
 			{{#each this}}
 			<nav class="next"><a href="#" class="button back">Paises</a><h1>{{Pais}}</h1></nav>

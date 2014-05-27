@@ -47,6 +47,52 @@ function hideTwitterBoxElements() {
 
 // somewhere in your code after html page load
 hideTwitterBoxElements();
+    
+var substringMatcher = function(strs) {
+  return function findMatches(q, cb) {
+    var matches, substringRegex;
+ 
+    // an array that will be populated with substring matches
+    matches = [];
+ 
+    // regex used to determine if a string contains the substring `q`
+    substrRegex = new RegExp(q, 'i');
+ 
+    // iterate through the pool of strings and for any string that
+    // contains the substring `q`, add it to the `matches` array
+    $.each(strs, function(i, str) {
+      if (substrRegex.test(str.Description)) {
+        // the typeahead jQuery plugin expects suggestions to a
+        // JavaScript object, refer to typeahead docs for more info
+        matches.push({ value: str.Description, price: str.Price });
+      }
+    });
+ 
+    cb(matches);
+  };
+};
+ 
+$('#searchbox .typeahead').typeahead(null, {
+  name: 'best-pictures',
+  displayKey: 'value',
+  source: substringMatcher(json.Products),
+  templates: {
+    empty: [
+      '<div class="empty-message">',
+      'No hay resultados',
+      '</div>'
+    ].join('\n'),
+    suggestion: Handlebars.compile('<p><strong>{{value}}</strong> – {{price}}</p>')
+  }
+});
+     $('#menuiframe').toggle();
+     $('#desclick_advance').toggle();
+     $('.click-toggle').click(function(){
+        $('#menuiframe').toggle();
+         $('#click_advance').toggle();
+         $('#desclick_advance').toggle();
+        $("i",this).toggleClass("icon-circle-arrow-up icon-circle-arrow-down");
+    });
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

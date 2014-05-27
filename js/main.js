@@ -54,6 +54,7 @@ hideTwitterBoxElements();
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-51363036-1', 'culturacervecera.do');
+  ga('require','displayfeatures');
   ga('send', 'pageview');
 
 });

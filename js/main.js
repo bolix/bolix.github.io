@@ -82,7 +82,7 @@ $('#searchbox .typeahead').typeahead(null, {
       'No hay resultados',
       '</div>'
     ].join('\n'),
-    suggestion: Handlebars.compile('<p><strong>{{value}}</strong> – {{price}}</p>')
+    suggestion: Handlebars.compile('<p><strong>{{value}}</strong> ${{price}}</p>')
   }
 });
      $('#menuiframe').toggle();

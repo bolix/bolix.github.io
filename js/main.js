@@ -4,6 +4,8 @@ $(function () {
         preventPageScrolling: true
     });*/
 
+    $('#inst-img').attr("style","text-align:left");
+
     !function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
             p = /^http:/.test(d.location) ? 'http' : 'https';
